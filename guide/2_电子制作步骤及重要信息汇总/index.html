@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>2.1 电子制作步骤 | ElectronBot</title>
+    <meta name="generator" content="VuePress 1.9.9">
+    
+    <meta name="description" content="ElectronBot 文档">
+    
+    <link rel="preload" href="/electronbot-doc/assets/css/0.styles.ed79a0cc.css" as="style"><link rel="preload" href="/electronbot-doc/assets/js/app.a23f91df.js" as="script"><link rel="preload" href="/electronbot-doc/assets/js/2.5cda13a8.js" as="script"><link rel="preload" href="/electronbot-doc/assets/js/10.b9b00c65.js" as="script"><link rel="prefetch" href="/electronbot-doc/assets/js/11.094ebe11.js"><link rel="prefetch" href="/electronbot-doc/assets/js/3.51176850.js"><link rel="prefetch" href="/electronbot-doc/assets/js/4.9ec99d8f.js"><link rel="prefetch" href="/electronbot-doc/assets/js/5.d06ef15d.js"><link rel="prefetch" href="/electronbot-doc/assets/js/6.38b43563.js"><link rel="prefetch" href="/electronbot-doc/assets/js/7.83824d53.js"><link rel="prefetch" href="/electronbot-doc/assets/js/8.1fdb41cb.js"><link rel="prefetch" href="/electronbot-doc/assets/js/9.f41bb7e2.js">
+    <link rel="stylesheet" href="/electronbot-doc/assets/css/0.styles.ed79a0cc.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/electronbot-doc/" class="home-link router-link-active"><!----> <span class="site-name">ElectronBot</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <!----></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><!---->  <ul class="sidebar-links"><li><a href="/electronbot-doc/guide/" aria-current="page" class="sidebar-link">1.背景说明</a></li><li><a href="/electronbot-doc/guide/2_%E7%94%B5%E5%AD%90%E5%88%B6%E4%BD%9C%E6%AD%A5%E9%AA%A4%E5%8F%8A%E9%87%8D%E8%A6%81%E4%BF%A1%E6%81%AF%E6%B1%87%E6%80%BB/" aria-current="page" class="active sidebar-link">2.电子重要信息汇总</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/electronbot-doc/guide/2_%E7%94%B5%E5%AD%90%E5%88%B6%E4%BD%9C%E6%AD%A5%E9%AA%A4%E5%8F%8A%E9%87%8D%E8%A6%81%E4%BF%A1%E6%81%AF%E6%B1%87%E6%80%BB/#_2-1-电子制作步骤" class="sidebar-link">2.1 电子制作步骤</a></li><li class="sidebar-sub-header"><a href="/electronbot-doc/guide/2_%E7%94%B5%E5%AD%90%E5%88%B6%E4%BD%9C%E6%AD%A5%E9%AA%A4%E5%8F%8A%E9%87%8D%E8%A6%81%E4%BF%A1%E6%81%AF%E6%B1%87%E6%80%BB/#_2-2-电子重要信息汇总" class="sidebar-link">2.2 电子重要信息汇总</a></li></ul></li><li><a href="/electronbot-doc/guide/3_%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%89%AB%E7%9B%B2/" class="sidebar-link">3.基础知识扫盲</a></li><li><a href="/electronbot-doc/guide/4_%E7%A1%AC%E4%BB%B6%E5%88%B6%E4%BD%9C/" class="sidebar-link">4.硬件制作</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h2 id="_2-1-电子制作步骤"><a href="#_2-1-电子制作步骤" class="header-anchor">#</a> 2.1 电子制作步骤</h2> <p><strong>这里先做一个粗略的描述，让读者对电子制作有一个整体印象</strong> <strong>主体步骤大概是这样，后面再补充修正</strong></p> <p>1.  定制3D模型<br>
+2.  定制PCB<br>
+3.  根据BOM表购买元件 <br>
+4.  确认前三步的物料时候到齐且正确<br>
+5.  焊接TYPE-C接口板和传感器板<br>
+6.  测试TYPE-C接口板和传感器板功能是否正常，电脑能检测到USB集线器和摄像头则认为基本正常<br>
+7.  焊接主板<br>
+8.  烧录正式固件，电脑能检测到CP2102和一个COM口则认为正常<br>
+9.  COM口安装稚晖君驱动，安装lib-usb<br>
+10.  主板屏幕1<br>
+11.  烧录屏幕测试固件（笑脸测试固件）<br>
+12.  运行屏幕测试专用上位机（群文件里的），屏幕显示笑脸<br>
+13.  TSSOP20烧录座子烧录舵机控制芯片固件（F030和F042的固件不同）<br>
+14.  焊接舵机驱动板和4P连接线（不用烧录座的话需要再焊接烧录线，烧录完拆除）<br>
+15.  改造并焊接舵机<br>
+16.  CLION编辑主控固件，添加舵机ID烧录代码，烧录到主板主控（F030和F042操作有一点区别）<br>
+17.  测试全部6个舵机，确保都能正反180度旋转（装上最长的摇臂）<br>
+18.  主控烧录正式固件<br>
+19.  给电子上电，打开稚晖君上位机（群文件里的）<br>
+20.  上位机打到模型优先，拖动6个拉杆，看舵机是否动作，程序对舵机角度有限制，部分舵机只能转30度了<br>
+21.  上位机打到实体优先，挨个转动舵机，观察模型角度<br>
+22.  上位机打开一个MP4文件并播放（笑脸测试文件就行），观察屏幕，正常用热熔胶将屏幕和主板粘在一起<br>
+23.  用热熔胶固定舵机板子（注意胶量，多了不好组装，少了线容易断或者短路）<br>
+24.  左边身体Q装轴承<br>
+25.  组装转轴，推杆螺丝冒，手臂内外壳，装好插入轴承，在里面装上小齿轮并用502固定<br>
+26.  推杆螺丝插入推杆，并制作一个挡头蓝色USB口<br>
+27.  将推杆安装到舵机<br>
+28.  将舵机安装到位置（先不上胶），拧紧舵机推杆螺丝和螺丝帽（5~6圈就行）<br>
+29.  CLION编辑主控固件，robot.h修改角度，上位机左臂展开，实体也能对应角度展开就行（30左右）8<br>
+30.  将大齿轮安装到对应舵机<br>
+31.  将舵机安装到对应位置，按住两个舵机，上位机左臂旋转（-20度~180度），能从正下转到正上就行<br>
+32.  CLION编辑主控固件，robot.h修改角度，上位机左臂展开，实体也能对应角度展开就行（30左右）<br>
+33.  上胶上螺丝<br>
+34.  再次用上位机测试<br>
+35.  固定下4P线<br>
+36.  重复29~35装右边身体<br>
+37.  安装传感器板子，并上螺丝，用热熔胶固定摄像头<br>
+38.  安装9G舵机，需要剪掉不上螺丝那边的耳朵，螺丝固定就行<br>
+39.  脖子插入头部后壳，安装头部舵机<br>
+40.  CLION编辑主控固件，robot.h修改角度，头部能上下转动，实体也能对应角度转动就行（30左右）<br>
+41.  将主控装入头部前壳<br>
+42.  肚子安装左右外壳，并上螺丝，8P线穿过脖子<br>
+43.  肚子前壳装轴承<br>
+44.  底部上壳安装TYPE-C板子<br>
+45.  组装底壳，用螺丝固定底壳和9G舵机.<br>
+46.  CLION编辑主控固件，robot.h修改角度，头部能左右转动，实体也能对应角度转动就行（180度）<br>
+47.  至此电子制作基本完成，开始把玩吧<br></p> <h2 id="_2-2-电子重要信息汇总"><a href="#_2-2-电子重要信息汇总" class="header-anchor">#</a> 2.2 电子重要信息汇总</h2> <p><strong>汇总一些重要的点，这处理不好会代价有点大，后续章节会有相关详细说明</strong> <strong>关于PCB定制@</strong></p> <p>1.  全部PCB厚度1.0mm<br>
+2.  想实现语音功能打语音版传感器板就行，没必要打语音版主板<br>
+3.  舵机板用小法师或小卡的，稚晖君原版焊盘容易掉，小白上手难度极高<br></p> <p><strong>关于PCB连接</strong>
+1.  USB板连接传感器板子为同向10P排线<br>
+2.  传感器板子连接主控板为同向8P排线<br>
+3.  移动板子，或者舵机转动影响到了板子，排线有点容易松动<br>
+4.  多次插拔后排线头容易坏，注意检查<br> <strong>关于模型打印</strong>
+1.  外壳树脂、尼龙、PLA都可以，内部齿轮推杆等受力件必须尼龙<br>
+2.  最好打小鹏优化版本<br> <strong>关于焊接</strong>
+1.  屏幕不要拿热风枪吹，容易导致屏幕各层之间分离<br>
+2.  屏幕引脚有胶的那面贴PCB，焊接之前引脚需要把塑料刮掉并上锡<br>
+3.  32或者FFC座子引脚连锡建议吸锡器，烙铁刮容易导致板子焊盘脱落<br>
+4.  FFP座子和3300最好先用空子练手，感觉焊接的差不多了再用新板子重新焊接<br> <strong>关于固件</strong>
+1.  原版主控固件必须是 6个舵机全在线才能和上位机正常通讯，建议用电子调试助手自带的固件。<br>
+2.  笑脸测试的固件为屏幕专用测试固件，舵机不接也可以，上位机为专用上位机<br>
+3.  调试舵机参数改的是主控板固件，而不是舵机板，参数设置函数稚晖君写好了的<br> <strong>关于上位机</strong>
+1.  正式上位机用群文件里的或者绿荫的电子脑壳（原版群文件）<br>
+2.  笑脸测试上位机在群文件找（原版缺群文件） <br> <strong>关于舵机驱动板</strong>
+1.  舵机的5根线线序按部就班的接就行，不要想当然的接一套出些莫名其妙的问题<br>
+2.  组装时舵机线和4p线非常容易脱落或者短路所以需要用热熔胶固定，舵机马达线如果从马达上脱落就换舵机吧。<br> <strong>关于组装</strong>
+1.  组装需要注意多看看资料，不要闷头搞<br>
+2.  组装前需要对焊接的线头用热熔胶固定，避免组装过程中焊盘脱落<br> <strong>其他</strong>
+1.  电子最好插在电脑的（USB3.0口驱动能力为1A）<br>
+2.  电子直接接在电脑上，不要再接一级USB-HUB，接了可能导致连接正常但是无法显示图片<br>
+3.  手势识别7620和六轴6050最好买模块拆下来用，usb摄像头模块不用拆，4根线接到传感器板就行<br></p></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/electronbot-doc/assets/js/app.a23f91df.js" defer></script><script src="/electronbot-doc/assets/js/2.5cda13a8.js" defer></script><script src="/electronbot-doc/assets/js/10.b9b00c65.js" defer></script>
+  </body>
+</html>
