@@ -33,9 +33,10 @@ export default defineConfig({
           { text: '1.前言', link: '/guide/制作流程/前言' },
           { text: '2.打板', link: '/guide/制作流程/打板' },
           { text: '3.物料零件购买', link: '/guide/制作流程/物料零件购买' },
-          { text: '4.PCB焊接', link: '/guide/制作流程/pcb焊接' },
-          { text: '5.固件烧录、驱动安装', link: '/guide/制作流程/固件烧录驱动安装' },
-          { text: '6.测试、外壳组装', link: '/guide/制作流程/测试外壳组装' },
+          { text: '4.精英版A2 DC-DC物料零件购买', link: '/guide/制作流程/精英版A2 DC-DC物料零件购买' },
+          { text: '5.PCB焊接', link: '/guide/制作流程/pcb焊接' },
+          { text: '6.固件烧录、驱动安装', link: '/guide/制作流程/固件烧录驱动安装' },
+          { text: '7.测试、外壳组装', link: '/guide/制作流程/测试外壳组装' },
         ]
       },
       {
