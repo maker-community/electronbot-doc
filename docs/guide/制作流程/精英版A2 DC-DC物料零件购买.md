@@ -96,7 +96,7 @@
 
 |                           元件型号                           | 位号  |                   封装                   | 数量 |   备注   |
 | :----------------------------------------------------------: | :---: | :--------------------------------------: | :--: | :------: |
-| [47UF10V](https://detail.tmall.com/item.htm?_u=638jp1n0cb6&id=744122921990&spm=a1z09.2.0.0.2b922e8dYscbuj&skuId=5301691718275) |  无   |                 CAP_0603       | 2   |          |
+| [47UF10V](https://detail.tmall.com/item.htm?_u=638jp1n0cb6&id=744122921990&spm=a1z09.2.0.0.2b922e8dYscbuj&skuId=5301691718275) |  无   |                 CAP_3528       | 2   |          |
 | [100NF50V](https://detail.tmall.com/item.htm?_u=638jp1n0c4d&id=744478845268&skuId=5137009845265&spm=a1z09.2.0.0.15ae2e8dM3Jguj) |  无   |                 CAP_0603       | 20   |          |
 | [10UF25V](https://detail.tmall.com/item.htm?_u=638jp1n0c4d&id=744478845268&skuId=5137009845291&spm=a1z09.2.0.0.15ae2e8dM3Jguj) |  无   |                 CAP_0603                |  6   |          |
 | [4.7K](https://detail.tmall.com/item.htm?_u=638jp1n63c8&id=730741754292&skuId=5236050159128&spm=a1z09.2.0.0.2b922e8dYscbuj) |  无   |                 RES_0603                |  2   |          |
