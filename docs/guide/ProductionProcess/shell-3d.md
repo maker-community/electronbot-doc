@@ -25,7 +25,7 @@ https://www.bilibili.com/video/BV1sx4y1s7FZ
 
 1. [喇叭链接](https://m.tb.cn/h.gQBfAuQCAnnUt2I?tk=I7Q132NpBCg)
 
-![image](laba.jpg)
+![image](/laba.jpg)
 
 5. [螺钉盒子紧固外壳](https://m.tb.cn/h.gQSUxz6XtIg9wGg?tk=k64F32NssRm)
 ![image](/heziluosi.jpg)
