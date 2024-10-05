@@ -21,9 +21,9 @@ export default defineConfig({
         text: '复刻版本介绍（必读）',
         collapsed: false,
         items: [
-          { text: '1.板子展示', link: '/guide/pcb-info' },
-          { text: '2.疑惑解答（疑惑必读）', link: '/guide/推荐复刻版本/疑惑解答' },
-          { text: '3.效果展示', link: '/guide/推荐复刻版本/效果展示' },
+          { text: '1.扫盲介绍', link: '/guide/pcb-info' },
+          { text: '2.疑惑解答（疑惑必读）', link: '/guide/eb-elite/introduction' },
+          { text: '3.效果展示', link: '/guide/eb-elite/showcase' },
         ]
       },
       {
@@ -54,9 +54,9 @@ export default defineConfig({
         text: '辅助焊接图',
         collapsed: false,
         items: [
-          { text: '头部焊接图', link: '/guide/辅助焊接工具图/头部焊接图' },
-          { text: '语音传感器二合一', link: '/guide/辅助焊接工具图/语音传感器二合一' },
-          { text: '舵机多合一', link: '/guide/辅助焊接工具图/舵机多合一' },
+          { text: '头部焊接图', link: '/guide/WeldingDiagram/elite-dcdc' },
+          { text: '语音板子', link: '/guide/WeldingDiagram/elite-voice' },
+          { text: '舵机板子', link: '/guide/WeldingDiagram/elite-servo' },
         ]
       },
     ],
