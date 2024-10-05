@@ -81,6 +81,6 @@ features:
 ---
 
 
-**本文档基于ElectronBot小白入坑指南-适配小卡版**
+**本文档基于ElectronBot小白入坑指南-适配[电子精英版](https://oshwhub.com/lxw4864607/electronbot-pi-liang-zhi-zao-ban-ben)**
 
 **QQ群：147597938**

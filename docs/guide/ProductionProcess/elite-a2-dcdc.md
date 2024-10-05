@@ -8,6 +8,8 @@
 | :----------------------------------------------------------: | :---: | :--------------------------------------: | :--: | :------: |
 | [DC电源芯片 SY8089A1AAC](https://item.taobao.com/item.htm?_u=638jp1nfdd1&id=675743697705&spm=a1z09.2.0.0.15ae2e8dM3Jguj&skuId=5506126073221) |  U1   |                 SOT23-5                  |  1   |        |
 | [AO3400A](https://item.taobao.com/item.htm?id=522574089119&spm=a1z10.3-c-s.w4002-21223910208.9.43706a4bLb8vCV) |  Q4   |                 SOT23-3                  |  1   |          |
+| [长江微电功率电感 FTC252012S1R5MBCA 2x2.5 1.5uH](http://e.tb.cn/h.gtJumxiITH2j4du?tk=o4KI3QCqx2G) |  L1   |                                   |  1   |        |
+| [AO3400A](https://item.taobao.com/item.htm?id=522574089119&spm=a1z10.3-c-s.w4002-21223910208.9.43706a4bLb8vCV) |  Q4   |                 SOT23-3                  |  1   |          |
 | [F0502-B-10-20T-R](https://item.taobao.com/item.htm?_u=g20q7cgb4b1f&id=552629356951&sku_properties=1627207:4042777) | U21  |       FPC-SMD_8P-P0.50_L5.9-W9.4        |  1   |   主控和语音板子连接排线座       |
 | [USB3300-EZK-TR](https://item.taobao.com/item.htm?id=765987343199&pisk=f26nTM9vw6RQ3SgHc5vQwxEJZvFTd29WRaHJyLLz_F8spapped8w233y4YRe71jfreE7OpCMrN7M8vEQOQ8lRFQ-eMBl1YjfV9EBek9CAL9zkreArMsBF97gq3Xn7V-AbY-y4P9gGLvzkreux5gDhL5-c57npC86q3kezaRZ_n8ZYY7y8CuwV39yzUe_cySq4tPwGE0nRTBwvWdyuM8FvMBwTqLcYnMoEexHtWIeSYkPI1_bh18UGcLWpe_exawjdpRlGgKl-JDFri61Sh74ExLFfiCvO9yjNIve-CWFxy2ljTYHg9RiqusMC37yZ1amHHvdsIXhOugNYZLhgps-myIMi1AXbCooTgRo_jP1LYta2OlSNB-6jEKFBTm0FHZtdlqiGjdefHp7jlcSlB-6jEEgjjkJThtpF&spm=a1z10.3-c-s.w4002-24706531953.9.45966a4bbe7RR7) |  U10  |     QFN-32_L5.0-W5.0-P0.50-BL-EP3.4      |  1   |    高速USB通讯芯片      |
 | [SH1.0-3P-STAND](https://item.taobao.com/item.htm?id=565792478624&spm=pc_detail.27183998/evo365560b447259.202206.1.551b7dd6tgTZyT&skuId=4977063196566) |  U8   |     CONN-SMD_3P-P1.00_SH1.0-3P-STAND     |  1   |    3PIN插线座子（固件烧录使用）      |
@@ -44,6 +46,7 @@
 | [FM116B](https://item.taobao.com/item.htm?abbucket=3&id=694332585536&ns=1&priceTId=2147805817169557668101764e7cd8&spm=a21n57.1.item.55.4778523c2BmLel&skuId=4926989292643) |  U14 U26 U27 U28 U29 U30  |                 SOT23-6                  |  6   |          |
 | [HC-0.8-5PWT](https://item.taobao.com/item.htm?id=740301107825&spm=a1z10.3-c-s.w4002-25177821117.10.1d3d3a84WevkRX&sku_properties=1627207:3682119) |  CN1 CN10 CN11 CN12 CN13 CN14  |    CONN-SMD_5P-P0.80_HCTL_HC-0.8-5PWT    |  6   |          |
 | [SH1.0A-4P 卧贴](https://item.taobao.com/item.htm?_u=g20q7cgbab7d&id=565715285795&spm=a1z09.2.0.0.62442e8demH03x) |  CN20  |          CONN-SMD_SH1.0A-4P-WT           |  1  | 舵机板4PIN舵机座子      |
+| [舵机版子拨码开关6路]( http://e.tb.cn/h.gtlfGOjYyszaHQM?tk=HaJG3QCwmUK) |  SW1  | SW-SMD 12P-L9.2-W5.4-P1.27-LS8.5   |  1  | 原装KE DSHP06TSGER 间距1.27mm 贴片 SMD 6位 拨码开关 六路编码  |
 
 ### 头部需要的阻容列表
 
@@ -124,3 +127,5 @@
 | [0.8cm的5pin刺破端子线材同向](https://item.taobao.com/item.htm?_u=b38jp1n55b3&id=651242539508&spm=a1z09.2.0.0.43b92e8dcatZo9&skuId=4867116763839) |  无   |                  10cm 5pin双头（5根）   20cm双头（1根 ）  同向           | 6 |  舵机使用        |
 | [烧录烧写测试针弹簧针](https://item.taobao.com/item.htm?_u=b38jp1n3431&id=734732308160&spm=a1z09.2.0.0.43b92e8dcatZo9&skuId=5254802443743) |  无   |       2.54间距4P               | 1 |  舵机板030烧录使用        |
 | [stlink下载器线烧录调试](https://detail.tmall.com/item.htm?_u=b38jp1n1d88&id=558866168716&skuId=5146051183964&spm=a1z09.2.0.0.43b92e8dcatZo9) |  无   |                    | 1 |  烧录使用        |
+| [电源开关小号三脚两档柄高8mm](http://e.tb.cn/h.gGbGNdNzkzBc35l?tk=IP1H3QCFVza) |  无   |                    | 1 |  控制板子总电源       |
+
