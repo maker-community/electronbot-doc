@@ -2,9 +2,15 @@
 
 [辅助焊接页面-精英版DCDC头部.html](/PCB_EB-Elite_CT1_1_2024-10-5.html){target="_blank"}
 
+![精英版DCDC辅助焊接图预览](/elite-dcdc-pcb.png)
+
 [辅助焊接页面-语音板子.html](/PCB_EB-Elite_TF1_2024-10-5.html){target="_blank"}
 
+![精英版语言板子预览](/elite-voice-pcb.png)
+
 [辅助焊接页面-精英版舵机板子.html](/PCB_EB-Elite_DR1_2024-10-5.html){target="_blank"}
+
+![精英版舵机板子预览](/elite-servo-pcb.png)
 
 ### 1. 焊接方法
 

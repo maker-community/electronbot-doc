@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 制作流程
-      link: /guide/ProductionProcess/前言
+      link: /guide/ProductionProcess/start
     - theme: alt
       text: 板子购买地址
       link: https://shop102955376.taobao.com
@@ -82,5 +82,7 @@ features:
 
 
 **本文档基于ElectronBot小白入坑指南-适配[电子精英版](https://oshwhub.com/lxw4864607/electronbot-pi-liang-zhi-zao-ban-ben)**
+
+**[旧版文档，仅供参考](https://maker-community.github.io/electronbot-old/)**
 
 **QQ群：147597938**

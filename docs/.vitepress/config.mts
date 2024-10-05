@@ -30,12 +30,12 @@ export default defineConfig({
         text: '制作流程（必读）',
         collapsed: false,
         items: [
-          { text: '1.前言', link: '/guide/ProductionProcess/前言' },
-          { text: '2.打板', link: '/guide/ProductionProcess/打板' },
+          { text: '1.前言', link: '/guide/ProductionProcess/start' },
+          { text: '2.打板', link: '/guide/ProductionProcess/get-board' },
           { text: '3.精英版A2-DCDC清单', link: '/guide/ProductionProcess/elite-a2-dcdc' },
           { text: '4.PCB焊接', link: '/guide/ProductionProcess/welding' },
-          { text: '5.固件烧录、驱动安装', link: '/guide/ProductionProcess/固件烧录驱动安装' },
-          { text: '6.测试、外壳组装', link: '/guide/ProductionProcess/测试外壳组装' },
+          { text: '5.固件烧录、驱动安装', link: '/guide/ProductionProcess/firmware' },
+          { text: '6.测试、外壳组装', link: '/guide/ProductionProcess/shell-3d' },
         ]
       },
       // {
