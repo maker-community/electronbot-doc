@@ -6,11 +6,10 @@
 ### 头部板子主要元件
 |                           元件型号                           | 位号  |                   封装                   | 数量 |   备注   |
 | :----------------------------------------------------------: | :---: | :--------------------------------------: | :--: | :------: |
-| [DC电源芯片 SY8089A1AAC](https://item.taobao.com/item.htm?_u=638jp1nfdd1&id=675743697705&spm=a1z09.2.0.0.15ae2e8dM3Jguj&skuId=5506126073221) |  U1   |                 SOT23-5                  |  1   |        |
-| [AO3400A](https://item.taobao.com/item.htm?id=522574089119&spm=a1z10.3-c-s.w4002-21223910208.9.43706a4bLb8vCV) |  Q4   |                 SOT23-3                  |  1   |          |
-| [长江微电功率电感 FTC252012S1R5MBCA 2x2.5 1.5uH](http://e.tb.cn/h.gtJumxiITH2j4du?tk=o4KI3QCqx2G) |  L1   |                                   |  1   |        |
-| [AO3400A](https://item.taobao.com/item.htm?id=522574089119&spm=a1z10.3-c-s.w4002-21223910208.9.43706a4bLb8vCV) |  Q4   |                 SOT23-3                  |  1   |          |
-| [F0502-B-10-20T-R翻盖下接和抽屉下接都可以](https://item.taobao.com/item.htm?_u=g20q7cgb4b1f&id=552629356951&sku_properties=1627207:4042777) | U21  |       FPC-SMD_8P-P0.50_L5.9-W9.4        |  1   |   主控和语音板子连接排线座       |
+| [DC电源芯片 SY8089A1AAC](https://item.taobao.com/item.htm?_u=638jp1nfdd1&id=675743697705&spm=a1z09.2.0.0.15ae2e8dM3Jguj&skuId=5506126073221) |  U1   |                 SOT23-5                  |  1   |    DCDC电源芯片    |
+| [长江微电功率电感 FTC252012S1R5MBCA 2x2.5 1.5uH](http://e.tb.cn/h.gtJumxiITH2j4du?tk=o4KI3QCqx2G) |  L1   |                                   |  1   |    DCDC电源需要的电感    |
+| [AO3400A](https://item.taobao.com/item.htm?id=522574089119&spm=a1z10.3-c-s.w4002-21223910208.9.43706a4bLb8vCV) |  Q4   |                 SOT23-3                  |  1   |     屏幕背光     |
+| [8PIN翻盖下接(抽屉下接都可以)](https://item.taobao.com/item.htm?_u=g20q7cgb4b1f&id=552629356951&sku_properties=1627207:4042777) | U21  |       FPC-SMD_8P-P0.50_L5.9-W9.4        |  1   |   主控和语音板子连接排线座       |
 | [USB3300-EZK-TR](https://item.taobao.com/item.htm?id=765987343199&pisk=f26nTM9vw6RQ3SgHc5vQwxEJZvFTd29WRaHJyLLz_F8spapped8w233y4YRe71jfreE7OpCMrN7M8vEQOQ8lRFQ-eMBl1YjfV9EBek9CAL9zkreArMsBF97gq3Xn7V-AbY-y4P9gGLvzkreux5gDhL5-c57npC86q3kezaRZ_n8ZYY7y8CuwV39yzUe_cySq4tPwGE0nRTBwvWdyuM8FvMBwTqLcYnMoEexHtWIeSYkPI1_bh18UGcLWpe_exawjdpRlGgKl-JDFri61Sh74ExLFfiCvO9yjNIve-CWFxy2ljTYHg9RiqusMC37yZ1amHHvdsIXhOugNYZLhgps-myIMi1AXbCooTgRo_jP1LYta2OlSNB-6jEKFBTm0FHZtdlqiGjdefHp7jlcSlB-6jEEgjjkJThtpF&spm=a1z10.3-c-s.w4002-24706531953.9.45966a4bbe7RR7) |  U10  |     QFN-32_L5.0-W5.0-P0.50-BL-EP3.4      |  1   |    高速USB通讯芯片      |
 | [SH1.0-3P-STAND 立贴](https://item.taobao.com/item.htm?id=565792478624&spm=pc_detail.27183998/evo365560b447259.202206.1.551b7dd6tgTZyT&skuId=4977063196566) |  U8   |     CONN-SMD_3P-P1.00_SH1.0-3P-STAND     |  1   |    3PIN插线座子（固件烧录使用）      |
 | [STM32F405RGT6](https://item.taobao.com/item.htm?id=522577756409&pvid=aa1f18aa-1d2d-4c48-aca4-2510d8bd8b76&scm=1007.11837.279802.0&spm=2013.1.w4018-21223910180.7.37634c481b1TNL) |  U5   |   LQFP-64_L10.0-W10.0-P0.50-LS12.0-BL    |  1   |    主控芯片      |
@@ -26,26 +25,26 @@
 | :----------------------------------------------------------: | :---: | :--------------------------------------: | :--: | :------: |
 | [HS8836A](https://item.taobao.com/item.htm?id=778259541413&skuId=5319963197471) |  U4 U5  |                  SO-16N                  |  2   |      usb hub芯片    |
 | [SH0.8-4P 卧贴](https://item.taobao.com/item.htm?abbucket=7&id=740301107825&ns=1&priceTId=2147bf8317170542769112777e01e7&skuId=5103602548730&spm=a21n57.1.item.6.2db0523cUPIqBH) |  P7  |    CONN-SMD_4P-P0.80_HCTL_HC-0.8-4PWT    |  1   |     摄像头4pin接线座     |
-| [XC6210B332MR](https://item.taobao.com/item.htm?_u=s20q7cgb15f7&id=559236610497&spm=a1z09.2.0.0.29ee2e8dahZw7u) |  U19  |                 SOT23-5                  |  1   |        |
+| [XC6210B332MR](https://item.taobao.com/item.htm?_u=s20q7cgb15f7&id=559236610497&spm=a1z09.2.0.0.29ee2e8dahZw7u) |  U19  |                 SOT23-5                  |  1   |   变压芯片将5v转成板子需要的3.3v     |
 |   [6MHz](https://item.taobao.com/item.htm?id=549013624134)   |  Y1   |             cystal-3P -4520              |  1   |     晶振6MHZ     |
 | [SC8002B](https://item.taobao.com/item.htm?spm=a1z10.3-c-s.0.0.8ea66a4bnKM0gz&id=573460181477) |  U7 U8   |                  SOP-8                   |  1   |     功放芯片     |
-| [CON10 翻盖下接(抽屉下接都可以)](https://item.taobao.com/item.htm?id=552629356951&sku_properties=1627207:3597693;-1:-3&spm=a1z10.3-c-s.0.0.53e96a4bsJrOL1) |  J2   |       FPC-SMD_10P-P0.50_L5.9-W9.4        |  2   |    10PIN主控和win hello底座      |
-| [F0502-B-10-20T-R](https://item.taobao.com/item.htm?_u=g20q7cgb4b1f&id=552629356951&sku_properties=1627207:4042777) | U21  |       FPC-SMD_8P-P0.50_L5.9-W9.4        |  1   |   主控和语音板子连接排线座       |
+| [10PIN翻盖下接(抽屉下接都可以)](https://item.taobao.com/item.htm?id=552629356951&sku_properties=1627207:3597693;-1:-3&spm=a1z10.3-c-s.0.0.53e96a4bsJrOL1) |  J2   |       FPC-SMD_10P-P0.50_L5.9-W9.4        |  2   |    10PIN主控和win hello底座      |
+| [8PIN翻盖(抽屉下接可以)](https://item.taobao.com/item.htm?_u=g20q7cgb4b1f&id=552629356951&sku_properties=1627207:4042777) | U21  |       FPC-SMD_8P-P0.50_L5.9-W9.4        |  1   |   主控和语音板子连接排线座       |
 | [WAFER-SH1.0-2PWB立贴](https://item.taobao.com/item.htm?id=565792478624&pisk=fHSZTjgbllEaUUNsPC-2Lae6Z5x9X3FWjiOXntXDCCAM1i1VnK9vIKmDovxHnBibBhav0sRFMCT6jCi20t5AGEjXGikOY_ojf5UOnm-Xm7N7Vu6TBnK0NirC1il9EL3gcdYmtdRjf8N7Vu6EYGPR07wxy3eMPKtDIEAMKJJ2FjxmSK2etKJJicfDmUHAG2gQgerVFBb4ycqEMlfHTmmred8M7udnmYIHQ9RlIrnmmMJw7it7Abc25ZXJyG140DK1UwxHFOEZY3XMU1OCZumex96hGUQLM0t1Ti8PjUk0ZQY2_wjM8xmcKOdwlZ5a_VdG568JKeD42p1WtOIG8-hhI_OwjpYQq8WHoglqMp21uiQZiq8MppR7LJ757TTUNI9Ikq3v-d9eNRaKkqLM6pR7LJuxkFnBLQw_J&spm=a1z10.3-c-s.w4002-24706531953.9.19516a4bBMt1MQ&skuId=4977063196565) |  U15 U16 U17 CN1  | CONN-SMD_2P-P1.00_XUNPU_WAFER-SH1.0-2PWB |  4  |     喇叭 麦克风 电源开关插座     |
-| [SH1.0A-4P 卧贴](https://item.taobao.com/item.htm?_u=g20q7cgbab7d&id=565715285795&spm=a1z09.2.0.0.62442e8demH03x) |  U9  |          CONN-SMD_SH1.0A-4P-WT           |  1  |    传感器板4PIN舵机座子      |
+| [SH1.0A-4P 卧贴](https://item.taobao.com/item.htm?_u=g20q7cgbab7d&id=565715285795&spm=a1z09.2.0.0.62442e8demH03x) |  U9  |          CONN-SMD_SH1.0A-4P-WT           |  1  |    语音板子连接舵机座子      |
 | [Type-C](https://detail.tmall.com/item.htm?abbucket=7&id=624204453884&ns=1&priceTId=2150439b17170520641343968eba0d&skuId=5046329906725&spm=a21n57.1.item.4.ac11523cfNtDUm) | USB1  |         USB-C_SMD-TYPE-C-31-M-12         |  1   |     usb接口座子     |
-| [PCM2912A](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.63072e8dmzSkSt&id=579685665991&_u=82089jq9r8603e) |  U6   |     TQFP-32_L7.0-W7.0-P0.80-LS9.0-TL     |  1   |          |
+| [PCM2912A](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.63072e8dmzSkSt&id=579685665991&_u=82089jq9r8603e) |  U6   |     TQFP-32_L7.0-W7.0-P0.80-LS9.0-TL     |  1   |     音频芯片     |
 
 
 ### 舵机板子主要芯片
 |                           元件型号                           | 位号  |                   封装                   | 数量 |   备注   |
 | :----------------------------------------------------------: | :---: | :--------------------------------------: | :--: | :------: |
-| [TL431IDBZT](https://item.taobao.com/item.htm?_u=b20q7cgbc675&id=554339815306&spm=a1z09.2.0.0.67002e8dJ6XlJx) |  U15 U31 U32 U33 U34 U35  |                sot23-3_3                 |  6   |          |
-| [XC6210](https://item.taobao.com/item.htm?_u=s20q7cgb15f7&id=559236610497&spm=a1z09.2.0.0.29ee2e8dahZw7u) |  U19  |                 SOT23-5                  |  1   |      XC6210    |
-| [STM32F030F6/STM32F042F6](https://item.taobao.com/item.htm?_u=638jp1nf451&id=522554611977&spm=a1z09.2.0.0.15ae2e8dM3Jguj) |  U13 U21 U22 U23 U24 U25  |                 tssop-20                 |  6   |          |
-| [FM116B](https://item.taobao.com/item.htm?abbucket=3&id=694332585536&ns=1&priceTId=2147805817169557668101764e7cd8&spm=a21n57.1.item.55.4778523c2BmLel&skuId=4926989292643) |  U14 U26 U27 U28 U29 U30  |                 SOT23-6                  |  6   |          |
-| [HC-0.8-5PWT 卧贴](https://item.taobao.com/item.htm?id=740301107825&spm=a1z10.3-c-s.w4002-25177821117.10.1d3d3a84WevkRX&sku_properties=1627207:3682119) |  CN1 CN10 CN11 CN12 CN13 CN14  |    CONN-SMD_5P-P0.80_HCTL_HC-0.8-5PWT    |  6   |          |
-| [SH1.0A-4P 卧贴](https://item.taobao.com/item.htm?_u=g20q7cgbab7d&id=565715285795&spm=a1z09.2.0.0.62442e8demH03x) |  CN20  |          CONN-SMD_SH1.0A-4P-WT           |  1  | 舵机板4PIN舵机座子      |
+| [TL431IDBZT](https://item.taobao.com/item.htm?_u=b20q7cgbc675&id=554339815306&spm=a1z09.2.0.0.67002e8dJ6XlJx) |  U15 U31 U32 U33 U34 U35  |                sot23-3_3                 |  6   |    舵机电机变压芯片      |
+| [XC6210](https://item.taobao.com/item.htm?_u=s20q7cgb15f7&id=559236610497&spm=a1z09.2.0.0.29ee2e8dahZw7u) |  U19  |                 SOT23-5                  |  1   |      XC6210 5v转3.3v芯片   |
+| [STM32F030F6/STM32F042F6](https://item.taobao.com/item.htm?_u=638jp1nf451&id=522554611977&spm=a1z09.2.0.0.15ae2e8dM3Jguj) |  U13 U21 U22 U23 U24 U25  |                 tssop-20                 |  6   |   舵机板子主控芯片       |
+| [FM116B](https://item.taobao.com/item.htm?abbucket=3&id=694332585536&ns=1&priceTId=2147805817169557668101764e7cd8&spm=a21n57.1.item.55.4778523c2BmLel&skuId=4926989292643) |  U14 U26 U27 U28 U29 U30  |                 SOT23-6                  |  6   |     pwm驱动舵机芯片     |
+| [HC-0.8-5PWT 卧贴](https://item.taobao.com/item.htm?id=740301107825&spm=a1z10.3-c-s.w4002-25177821117.10.1d3d3a84WevkRX&sku_properties=1627207:3682119) |  CN1 CN10 CN11 CN12 CN13 CN14  |    CONN-SMD_5P-P0.80_HCTL_HC-0.8-5PWT    |  6   |         舵机和舵机板子连接座子 |
+| [SH1.0A-4P 卧贴](https://item.taobao.com/item.htm?_u=g20q7cgbab7d&id=565715285795&spm=a1z09.2.0.0.62442e8demH03x) |  CN20  |          CONN-SMD_SH1.0A-4P-WT           |  1  | 舵机板和语音板子连接座子      |
 | [舵机版子拨码开关6路]( http://e.tb.cn/h.gtlfGOjYyszaHQM?tk=HaJG3QCwmUK) |  SW1  | SW-SMD 12P-L9.2-W5.4-P1.27-LS8.5   |  1  | 原装KE DSHP06TSGER 间距1.27mm 贴片 SMD 6位 拨码开关 六路编码  |
 
 ### 头部需要的阻容列表
