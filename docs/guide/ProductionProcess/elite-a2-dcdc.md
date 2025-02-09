@@ -122,7 +122,7 @@
 | [腰部轴承](https://item.taobao.com/item.htm?_u=b38jp1n42aa&id=22147131905&spm=a1z09.2.0.0.50c02e8dTHxoHQ&skuId=31676637844) |  无   |        腰部25x32x4mm         | 1 |          |
 | [螺丝](https://item.taobao.com/item.htm?_u=b20q7cgb74bb&id=571154046536&spm=a1z09.2.0.0.1f3c2e8df9Af9i) |  无   |                M2*4、5、6                | 若干 |          |
 | [螺丝](https://detail.tmall.com/item.htm?_u=b38jp1nc1f0&id=601243200968&spm=a1z09.2.0.0.50c02e8dTHxoHQ) |  无   |                  M1*10                   | 若干 |          |
-| [0.8cm的4pin刺破端子线材反向](https://item.taobao.com/item.htm?_u=aqc0n0p2a6e&id=651242539508&sku_properties=1627207:11548701;-2:-4&spm=a1z09.2.0.0.231e2e8dls1tgi) |  无   |                  10cm 4pin反向            | 7 |       摄像头使用   |
+| [0.8cm的4pin刺破端子线材反向](https://item.taobao.com/item.htm?_u=aqc0n0p2a6e&id=651242539508&sku_properties=1627207:11548701;-2:-4&spm=a1z09.2.0.0.231e2e8dls1tgi) |  无   |                  10cm 4pin反向            | 1 |       摄像头使用（建议多备几根）   |
 | [0.8cm的5pin刺破端子线材同向](https://item.taobao.com/item.htm?_u=b38jp1n55b3&id=651242539508&spm=a1z09.2.0.0.43b92e8dcatZo9&skuId=4867116763839) |  无   |                  10cm 5pin双头（5根）   20cm双头（1根 ）  同向           | 6 |  舵机使用        |
 | [烧录烧写测试针弹簧针](https://item.taobao.com/item.htm?_u=b38jp1n3431&id=734732308160&spm=a1z09.2.0.0.43b92e8dcatZo9&skuId=5254802443743) |  无   |       2.54间距4P               | 1 |  舵机板030烧录使用        |
 | [stlink下载器线烧录调试](https://detail.tmall.com/item.htm?_u=b38jp1n1d88&id=558866168716&skuId=5146051183964&spm=a1z09.2.0.0.43b92e8dcatZo9) |  无   |                    | 1 |  烧录使用        |
